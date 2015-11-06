@@ -20,11 +20,11 @@ using System.Text;
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 public class SendMailManage : System.Web.Services.WebService 
 {
-    public static string SendHost = "mail.tcbci.com";
-    public static string UserName = "baolong.liu@tcbci.com";
+    public static string SendHost = "123@qq.com";
+    public static string UserName = "456@qq.com";
     public static string UserPass = "123456";
-    public static string FromText = "½¨ÉèÍø";
-    public static string FromEmail = "system@tcbci.com";
+    public static string FromText = "ÍøÕ¾";
+    public static string FromEmail = "sys@tcbci.com";
     public static string FromTextEN = "Project Leads from TCBCI£¨test£©";
     public SendMailManage() 
     {
